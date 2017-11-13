@@ -1,0 +1,65 @@
+/**
+ * Created by 陈文骁 on 2017/3/16.
+ */
+@import "../config.less";
+
+.pagination,.jumpPageInput{
+    display: inline-block;
+    vertical-align: middle;
+}
+.jumpPageInput{
+    margin-left: 30px;
+}
+.pagination li{
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid @color-line;
+    border-radius: 2px;
+    padding: 4px 8px;
+    margin-left: 3px;
+    background-color:white;
+    transition: color @time-normal,background @time-normal;
+}
+.pagination li.ep{
+    cursor: default;
+    border: 0;
+}
+.pagination li:hover,.pagination li.active {
+    background: @theme-color-main;
+    color: @font-color-fff;
+}
+.pagination li.ep:hover{
+    background: @font-color-fff;
+    color: @font-color-base;
+}
+.pagination li.disable{
+    cursor: not-allowed;
+    background: @font-color-fff;
+    color: @font-color-light;
+}
+.jumpPageInput input,.jumpPageInput button{
+    padding: 4px 0;
+    margin: 0 5px;
+    border: 1px solid @color-line;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+}
+.jumpPageInput input{
+    width: 30px;
+}
+.jumpPageInput button{
+    width: 50px;
+}
+.fr{
+    float: right;
+    display: block;
+    height: 28px;
+}
+.mt-2 {
+    margin-top: 4px;
+}
+
+.ilb {
+    display: inline-block;
+}

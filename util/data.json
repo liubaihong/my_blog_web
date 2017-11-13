@@ -1,0 +1,19 @@
+
+{
+    "msg":"",
+    "success":true,
+    "count":"1361",
+    "errorCode":"0000",
+    "rows":[
+        {"belongAgtName":"测试一级","deviceType":"0002","mercId":"826440375238030","trmNo":"77206900","trmSn":"M0540002A0000056"},
+        {"belongAgtName":"测试一级","deviceType":"0002","mercId":"826440341318314","trmNo":"77206902","trmSn":"M0540002A0000058"},
+        {"belongAgtName":"测试一级","deviceType":"0002","mercId":"826440349008022","trmNo":"77207136","trmSn":"M0540002A0000059"},
+        {"belongAgtName":"测试一级","deviceType":"0002","mercId":"826440350218065","trmNo":"77207138","trmSn":"M0540002A0000061"},
+        {"belongAgtName":"测试一级","deviceType":"0002","mercId":"826440355428029","trmNo":"77207139","trmSn":"M0540002A0000062"},
+        {"belongAgtName":"测试一级","deviceType":"0002","mercId":"826440353988017","trmNo":"77207140","trmSn":"M0540002A0000063"},
+        {"belongAgtName":"测试一级","deviceType":"0002","mercId":"826440363008111","trmNo":"77207141","trmSn":"M0540002A0000064"},
+        {"belongAgtName":"测试一级","deviceType":"0017","mercId":"826440350478060","trmNo":"77034183","trmSn":"A001001710001115"},
+        {"belongAgtName":"测试一级","deviceType":"0017","mercId":"826440350458689","trmNo":"77034200","trmSn":"A001001710001132"},
+        {"belongAgtName":"测试一级","deviceType":"0017","mercId":"826440351118452","trmNo":"77034201","trmSn":"A001001710001133"}
+    ]
+}

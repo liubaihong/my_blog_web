@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-demo",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "backpack dev",
+    "build": "nuxt build && backpack build",
+    "start": "cross-env NODE_ENV=production pm2 start build/main.js",
+    "generate": "nuxt generate",
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "cross-env": "^5.0.1",
+    "koa": "^2.3.0",
+    "nuxt": "^1.0.0-rc3",
+    "source-map-support": "^0.4.15"
+  },
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "babel-eslint": "^7.1.1",
+    "backpack-core": "^0.3.0",
+    "bootstrap": "^3.3.7",
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-html": "^2.0.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "less": "^3.0.0-alpha.3",
+    "less-loader": "^4.0.5",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.7.1",
+    "qs": "^6.5.1",
+    "scmp": "^2.0.0"
+  }
+}
